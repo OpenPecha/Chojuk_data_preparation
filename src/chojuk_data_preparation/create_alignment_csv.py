@@ -27,7 +27,7 @@ def create_alignment_csv(root_path, commentary_path, output_csv_path):
 
 
 if __name__ == "__main__":
-    file_name = "D3872"
+    file_name = "Thokme"
     root_path = Path(f"./data/{file_name}-final/ཐུན་མོང་གི་རྩ་བ།.txt")
     commentary_path = Path(f"./data/{file_name}-final/Commentary.txt")
     output_csv_path = Path(f"./data/{file_name}_alignment.csv")
